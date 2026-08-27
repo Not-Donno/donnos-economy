@@ -22,13 +22,14 @@ public class ModItems {
     public static final Item CASH = Registry.register(
             BuiltInRegistries.ITEM,
             CASH_KEY,
-            new Item(
+            new CashItem(
                     new Item.Properties()
                             .setId(CASH_KEY)
-                    )
-            );
+            )
+    );
 
     public static void registerModItems() {
+
         DonnoSEconomy.LOGGER.info(
                 "Registering Donno's Economy items"
         );
