@@ -25,11 +25,10 @@ public class ModItems {
             new Item(
                     new Item.Properties()
                             .setId(CASH_KEY)
-            )
-    );
+                    )
+            );
 
     public static void registerModItems() {
-
         DonnoSEconomy.LOGGER.info(
                 "Registering Donno's Economy items"
         );
